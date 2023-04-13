@@ -1,24 +1,25 @@
+/*en el body mediante css quitamos el margen predeterminado y colocamos un color de fondo */
 body{
     margin: 0;
     background-color: dimgray;
 }
-
+/* alineamos h1 en el centro */
 h1{
     text-align: center;
 }
-
+/* asignamos color a las letras de titulo h1 y h2 y un tipo de letra */
 H1, H2 {
     color: rgb(92, 133, 141);
     font-family: 'Courier New';
-
 }
+/* asignamos bordes a la tabla con tamaño 1px y color le agregamos tipo de letra y color de las letras por si se desea cambiar el color de la tabla */
 table, th, td{
     border: 1px solid #1e006a;
     font-family: 'Courier New';
     color: rgb(0, 0, 0);
     padding: 5px;
 }
-
+/* se asigna el tamaño de la imagen el margen en la hoja y la forma de la imagen */
 img {
 width: 180px;
 height: 200px;
@@ -26,7 +27,7 @@ margin-left: 70px;
 margin-top: 30px;
 border-radius: 50%;
 }
-
+/* asignar los margenes como en una hoja de word */
 .container{
     display: flex;
     margin-left: 20%;
@@ -34,7 +35,7 @@ border-radius: 50%;
     height: 100opx;
     justify-content: space-between;
 }
-
+/* el tamaño y color de la colunma izquierda se le asigna tambien a las letras el color */
 .columnaizquierda {
     height: 1000px;
     background-color: #032a5a;
@@ -42,18 +43,18 @@ border-radius: 50%;
     font-family: 'Courier New';
     color: white;
 }
-
+/* el tamaño y color de la colunma derecha */
 .columnaderecha {
     border: 1px solid #1e006a;
     background-color: white;
     height: 1000px;
     flex-basis: 65%;
 }
-
+/* para que le contenido no se vea pegado al borde de la hoja se le asigna un margen */
 .contenido{
     margin-left: 10px;
 }
-
+/* para que le contenido no se vea pegado al borde de la hoja se le asigna un margen */
 .contenido1 {
     margin-left: 10px;
 }
